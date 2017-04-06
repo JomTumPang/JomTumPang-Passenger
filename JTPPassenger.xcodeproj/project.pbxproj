@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		826BA6041E95F55E0075AEAE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 826BA6031E95F55E0075AEAE /* Podfile */; };
 		8270E5501E95C9D000DD8E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E54F1E95C9D000DD8E5B /* main.m */; };
 		8270E5531E95C9D000DD8E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E5521E95C9D000DD8E5B /* AppDelegate.m */; };
 		8270E5561E95C9D000DD8E5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E5551E95C9D000DD8E5B /* ViewController.m */; };
 		8270E5591E95C9D100DD8E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8270E5571E95C9D100DD8E5B /* Main.storyboard */; };
 		8270E55B1E95C9D100DD8E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8270E55A1E95C9D100DD8E5B /* Assets.xcassets */; };
 		8270E55E1E95C9D100DD8E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8270E55C1E95C9D100DD8E5B /* LaunchScreen.storyboard */; };
+		8270E5861E95D4E300DD8E5B /* APLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E5671E95D4E300DD8E5B /* APLViewController.m */; };
+		8270E5871E95D4E300DD8E5B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E5691E95D4E300DD8E5B /* BaseViewController.m */; };
+		8270E5881E95D4E300DD8E5B /* EZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E56B1E95D4E300DD8E5B /* EZTextField.m */; };
+		8270E5891E95D4E300DD8E5B /* HttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E56E1E95D4E300DD8E5B /* HttpService.m */; };
+		8270E58A1E95D4E300DD8E5B /* HttpService1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E5701E95D4E300DD8E5B /* HttpService1.m */; };
+		8270E58B1E95D4E300DD8E5B /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E5721E95D4E300DD8E5B /* RestClient.m */; };
+		8270E58C1E95D4E300DD8E5B /* URLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E5741E95D4E300DD8E5B /* URLRequest.m */; };
+		8270E58D1E95D4E300DD8E5B /* SlidingmenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E5771E95D4E300DD8E5B /* SlidingmenuViewController.m */; };
+		8270E58E1E95D4E300DD8E5B /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E57D1E95D4E300DD8E5B /* NSDictionary+JSON.m */; };
+		8270E58F1E95D4E300DD8E5B /* NSNumber+JulianDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E57F1E95D4E300DD8E5B /* NSNumber+JulianDate.m */; };
+		8270E5901E95D4E300DD8E5B /* NSString+JulianDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E5811E95D4E300DD8E5B /* NSString+JulianDate.m */; };
+		8270E5911E95D4E300DD8E5B /* NSString+TimeInMilliSeconds.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E5831E95D4E300DD8E5B /* NSString+TimeInMilliSeconds.m */; };
+		8270E5921E95D4E300DD8E5B /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270E5851E95D4E300DD8E5B /* Utils.m */; };
+		F6DCCC0B4C18B15AF47AC6D0 /* libPods-JTPPassenger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7ACE78AB82EFF3FF8FB93E /* libPods-JTPPassenger.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		826BA6031E95F55E0075AEAE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8270E54B1E95C9D000DD8E5B /* JTPPassenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTPPassenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8270E54F1E95C9D000DD8E5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8270E5511E95C9D000DD8E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +42,38 @@
 		8270E55A1E95C9D100DD8E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8270E55D1E95C9D100DD8E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8270E55F1E95C9D100DD8E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8270E5661E95D4E300DD8E5B /* APLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLViewController.h; sourceTree = "<group>"; };
+		8270E5671E95D4E300DD8E5B /* APLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLViewController.m; sourceTree = "<group>"; };
+		8270E5681E95D4E300DD8E5B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		8270E5691E95D4E300DD8E5B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		8270E56A1E95D4E300DD8E5B /* EZTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTextField.h; sourceTree = "<group>"; };
+		8270E56B1E95D4E300DD8E5B /* EZTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTextField.m; sourceTree = "<group>"; };
+		8270E56D1E95D4E300DD8E5B /* HttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpService.h; sourceTree = "<group>"; };
+		8270E56E1E95D4E300DD8E5B /* HttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpService.m; sourceTree = "<group>"; };
+		8270E56F1E95D4E300DD8E5B /* HttpService1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpService1.h; sourceTree = "<group>"; };
+		8270E5701E95D4E300DD8E5B /* HttpService1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpService1.m; sourceTree = "<group>"; };
+		8270E5711E95D4E300DD8E5B /* RestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestClient.h; sourceTree = "<group>"; };
+		8270E5721E95D4E300DD8E5B /* RestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestClient.m; sourceTree = "<group>"; };
+		8270E5731E95D4E300DD8E5B /* URLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLRequest.h; sourceTree = "<group>"; };
+		8270E5741E95D4E300DD8E5B /* URLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLRequest.m; sourceTree = "<group>"; };
+		8270E5761E95D4E300DD8E5B /* SlidingmenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingmenuViewController.h; sourceTree = "<group>"; };
+		8270E5771E95D4E300DD8E5B /* SlidingmenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingmenuViewController.m; sourceTree = "<group>"; };
+		8270E5791E95D4E300DD8E5B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8270E57A1E95D4E300DD8E5B /* EZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZConstants.h; sourceTree = "<group>"; };
+		8270E57B1E95D4E300DD8E5B /* EZUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZUIConstants.h; sourceTree = "<group>"; };
+		8270E57C1E95D4E300DD8E5B /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		8270E57D1E95D4E300DD8E5B /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		8270E57E1E95D4E300DD8E5B /* NSNumber+JulianDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+JulianDate.h"; sourceTree = "<group>"; };
+		8270E57F1E95D4E300DD8E5B /* NSNumber+JulianDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+JulianDate.m"; sourceTree = "<group>"; };
+		8270E5801E95D4E300DD8E5B /* NSString+JulianDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JulianDate.h"; sourceTree = "<group>"; };
+		8270E5811E95D4E300DD8E5B /* NSString+JulianDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JulianDate.m"; sourceTree = "<group>"; };
+		8270E5821E95D4E300DD8E5B /* NSString+TimeInMilliSeconds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TimeInMilliSeconds.h"; sourceTree = "<group>"; };
+		8270E5831E95D4E300DD8E5B /* NSString+TimeInMilliSeconds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TimeInMilliSeconds.m"; sourceTree = "<group>"; };
+		8270E5841E95D4E300DD8E5B /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		8270E5851E95D4E300DD8E5B /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		89F865C1FEBAE13B3D93AA63 /* Pods-JTPPassenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTPPassenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-JTPPassenger/Pods-JTPPassenger.release.xcconfig"; sourceTree = "<group>"; };
+		DA7ACE78AB82EFF3FF8FB93E /* libPods-JTPPassenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JTPPassenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A65C9FD44E25B834A334F0 /* Pods-JTPPassenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTPPassenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JTPPassenger/Pods-JTPPassenger.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +81,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DCCC0B4C18B15AF47AC6D0 /* libPods-JTPPassenger.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		528399B51817BD539C61622A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3A65C9FD44E25B834A334F0 /* Pods-JTPPassenger.debug.xcconfig */,
+				89F865C1FEBAE13B3D93AA63 /* Pods-JTPPassenger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		769CBB0F5ADF9507C617B8E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA7ACE78AB82EFF3FF8FB93E /* libPods-JTPPassenger.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8270E5421E95C9CE00DD8E5B = {
 			isa = PBXGroup;
 			children = (
+				826BA6031E95F55E0075AEAE /* Podfile */,
 				8270E54D1E95C9D000DD8E5B /* JTPPassenger */,
 				8270E54C1E95C9D000DD8E5B /* Products */,
+				528399B51817BD539C61622A /* Pods */,
+				769CBB0F5ADF9507C617B8E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +127,10 @@
 		8270E54D1E95C9D000DD8E5B /* JTPPassenger */ = {
 			isa = PBXGroup;
 			children = (
+				8270E5651E95D4E300DD8E5B /* common */,
+				8270E56C1E95D4E300DD8E5B /* http */,
+				8270E5751E95D4E300DD8E5B /* SlidingMenu */,
+				8270E5781E95D4E300DD8E5B /* Utils */,
 				8270E5511E95C9D000DD8E5B /* AppDelegate.h */,
 				8270E5521E95C9D000DD8E5B /* AppDelegate.m */,
 				8270E5541E95C9D000DD8E5B /* ViewController.h */,
@@ -79,6 +152,63 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8270E5651E95D4E300DD8E5B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				8270E5661E95D4E300DD8E5B /* APLViewController.h */,
+				8270E5671E95D4E300DD8E5B /* APLViewController.m */,
+				8270E5681E95D4E300DD8E5B /* BaseViewController.h */,
+				8270E5691E95D4E300DD8E5B /* BaseViewController.m */,
+				8270E56A1E95D4E300DD8E5B /* EZTextField.h */,
+				8270E56B1E95D4E300DD8E5B /* EZTextField.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		8270E56C1E95D4E300DD8E5B /* http */ = {
+			isa = PBXGroup;
+			children = (
+				8270E56D1E95D4E300DD8E5B /* HttpService.h */,
+				8270E56E1E95D4E300DD8E5B /* HttpService.m */,
+				8270E56F1E95D4E300DD8E5B /* HttpService1.h */,
+				8270E5701E95D4E300DD8E5B /* HttpService1.m */,
+				8270E5711E95D4E300DD8E5B /* RestClient.h */,
+				8270E5721E95D4E300DD8E5B /* RestClient.m */,
+				8270E5731E95D4E300DD8E5B /* URLRequest.h */,
+				8270E5741E95D4E300DD8E5B /* URLRequest.m */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		8270E5751E95D4E300DD8E5B /* SlidingMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8270E5761E95D4E300DD8E5B /* SlidingmenuViewController.h */,
+				8270E5771E95D4E300DD8E5B /* SlidingmenuViewController.m */,
+			);
+			path = SlidingMenu;
+			sourceTree = "<group>";
+		};
+		8270E5781E95D4E300DD8E5B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8270E5791E95D4E300DD8E5B /* Constants.h */,
+				8270E57A1E95D4E300DD8E5B /* EZConstants.h */,
+				8270E57B1E95D4E300DD8E5B /* EZUIConstants.h */,
+				8270E57C1E95D4E300DD8E5B /* NSDictionary+JSON.h */,
+				8270E57D1E95D4E300DD8E5B /* NSDictionary+JSON.m */,
+				8270E57E1E95D4E300DD8E5B /* NSNumber+JulianDate.h */,
+				8270E57F1E95D4E300DD8E5B /* NSNumber+JulianDate.m */,
+				8270E5801E95D4E300DD8E5B /* NSString+JulianDate.h */,
+				8270E5811E95D4E300DD8E5B /* NSString+JulianDate.m */,
+				8270E5821E95D4E300DD8E5B /* NSString+TimeInMilliSeconds.h */,
+				8270E5831E95D4E300DD8E5B /* NSString+TimeInMilliSeconds.m */,
+				8270E5841E95D4E300DD8E5B /* Utils.h */,
+				8270E5851E95D4E300DD8E5B /* Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8270E5621E95C9D200DD8E5B /* Build configuration list for PBXNativeTarget "JTPPassenger" */;
 			buildPhases = (
+				2166CBFA19021AFEB62A640A /* [CP] Check Pods Manifest.lock */,
 				8270E5471E95C9D000DD8E5B /* Sources */,
 				8270E5481E95C9D000DD8E5B /* Frameworks */,
 				8270E5491E95C9D000DD8E5B /* Resources */,
+				8A72AC57E423DDB8582F13F2 /* [CP] Embed Pods Frameworks */,
+				7CCFC5FBCB4A91DA40689E6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,11 +272,60 @@
 			files = (
 				8270E55E1E95C9D100DD8E5B /* LaunchScreen.storyboard in Resources */,
 				8270E55B1E95C9D100DD8E5B /* Assets.xcassets in Resources */,
+				826BA6041E95F55E0075AEAE /* Podfile in Resources */,
 				8270E5591E95C9D100DD8E5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2166CBFA19021AFEB62A640A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CCFC5FBCB4A91DA40689E6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JTPPassenger/Pods-JTPPassenger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A72AC57E423DDB8582F13F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JTPPassenger/Pods-JTPPassenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8270E5471E95C9D000DD8E5B /* Sources */ = {
@@ -151,7 +333,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8270E5561E95C9D000DD8E5B /* ViewController.m in Sources */,
+				8270E5911E95D4E300DD8E5B /* NSString+TimeInMilliSeconds.m in Sources */,
+				8270E58F1E95D4E300DD8E5B /* NSNumber+JulianDate.m in Sources */,
+				8270E5921E95D4E300DD8E5B /* Utils.m in Sources */,
+				8270E5871E95D4E300DD8E5B /* BaseViewController.m in Sources */,
+				8270E58E1E95D4E300DD8E5B /* NSDictionary+JSON.m in Sources */,
+				8270E58C1E95D4E300DD8E5B /* URLRequest.m in Sources */,
+				8270E58B1E95D4E300DD8E5B /* RestClient.m in Sources */,
+				8270E5891E95D4E300DD8E5B /* HttpService.m in Sources */,
+				8270E58D1E95D4E300DD8E5B /* SlidingmenuViewController.m in Sources */,
+				8270E5881E95D4E300DD8E5B /* EZTextField.m in Sources */,
+				8270E58A1E95D4E300DD8E5B /* HttpService1.m in Sources */,
+				8270E5901E95D4E300DD8E5B /* NSString+JulianDate.m in Sources */,
 				8270E5531E95C9D000DD8E5B /* AppDelegate.m in Sources */,
+				8270E5861E95D4E300DD8E5B /* APLViewController.m in Sources */,
 				8270E5501E95C9D000DD8E5B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +465,7 @@
 		};
 		8270E5631E95C9D200DD8E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A65C9FD44E25B834A334F0 /* Pods-JTPPassenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JTPPassenger/Info.plist;
@@ -281,6 +477,7 @@
 		};
 		8270E5641E95C9D200DD8E5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F865C1FEBAE13B3D93AA63 /* Pods-JTPPassenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JTPPassenger/Info.plist;
@@ -309,6 +506,7 @@
 				8270E5641E95C9D200DD8E5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
